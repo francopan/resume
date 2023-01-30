@@ -25,7 +25,10 @@ And to run, simply run the app and then expose the port you want to. And that's 
 docker run -p 80:80 resume
 ~~~
 
-If you do not want to run the server, run the build-docker script. The pdf will be built inside docker container and the resultinf PDF and will be copied into local dist folder.
+
+Then access the PDF at [http://localhost/index.pdf](http://localhost/index.pdf)
+
+If you do not want to run the server, run the build-docker script. The pdf will be built inside docker container and the result in PDF and will be copied into local dist folder.
 
 ~~~
 chmod +x build.sh
