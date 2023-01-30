@@ -1,7 +1,5 @@
 rm -rf dist
 mkdir dist
-cd src
-pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
-cd ..
+pdflatex  -output-directory dist main.tex
 mv src/main.* ./dist
 mv ./dist/main.tex ./src

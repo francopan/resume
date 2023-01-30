@@ -17,12 +17,12 @@ chmod +x build.sh
 
 In order to build an image for docker, just run the command line below
 ~~~
-docker build . -t tcc
+docker build . -t resume
 ~~~
 
 And to run, simply run the app and then expose the port you want to. And that's it, with the command below the application will be available in http://localhost.
 ~~~
-docker run -p 80:80 tcc
+docker run -p 80:80 resume
 ~~~
 
 If you do not want to run the server, run the build-docker script. The pdf will be built inside docker container and the resultinf PDF and will be copied into local dist folder.
