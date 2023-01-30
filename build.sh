@@ -1,5 +1,3 @@
 rm -rf dist
 mkdir dist
-pdflatex  -output-directory dist main.tex
-mv src/main.* ./dist
-mv ./dist/main.tex ./src
+pdflatex -interaction=nonstopmode   -output-directory dist src/main.tex
